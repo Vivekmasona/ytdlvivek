@@ -220,3 +220,4 @@ function ISOToSeconds(isoTime) {
 function isTimeCorrect(time) {
     return time >= 0 && time < 60;
 }
+
