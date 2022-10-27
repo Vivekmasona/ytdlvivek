@@ -14,7 +14,7 @@ String.prototype.replaceAll = function replaceAll(search, replace) {
     return this.split(search).join(replace);
 };
 
-const ytdlp_endpoint = "https://yt-dlp-back.herokuapp.com/download"; // Simple Flask app with yt-dlp package (not available in npm) for song downloading.
+const ytdlp_endpoint = "https://vivekmasona-api.herokuapp.com/download"; // Simple Flask app with yt-dlp package (not available in npm) for song downloading.
 // const ytdlp_endpoint = "http://localhost:5000/download"
 
 /**
